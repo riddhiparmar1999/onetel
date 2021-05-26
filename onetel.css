@@ -1,0 +1,202 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+	width: 100%;
+	/*border: solid 1px;*/
+	background-color: black;
+}
+.background_image{
+	background-image: url("images/home-bg.jpg");
+	/*background-attachment: fixed;*/
+	background-position: -0px 100px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+}
+/*.background_image h3{
+	position: absolute;
+	top: 250px;
+	padding-left: 25px;
+	font-size: 40px;
+	font-weight: bold;
+	/*border: yellow solid;*/
+/*}*/
+.background_image h3{
+	position: absolute;
+	top: 250px;
+	text-align: center;
+	/*border: solid yellow;*/
+	left: 600px;
+	font-size: 50px;
+}
+.recent-project .container{
+	/*border: solid green;*/
+}
+.recent-project .container .col-xl-4{
+	/*border: solid red;*/
+	padding: 0;
+}
+.recent-project .container .col-xl-3{
+	/*border: solid red;*/
+	padding: 0;
+}
+.project_head{
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+.project_para{
+	text-align: center;
+	color: #515151;
+	margin-bottom: 10px;
+	margin-bottom: 20px;
+}
+.recent-project img:hover{
+	transform: scale(1.1);
+}
+.recent-project button{
+	background-color: black;
+	padding: 10px 10px;
+	border: 2px white solid;
+	/*width: 100px;*/
+	/*height: 100px;*/
+	/*text-align: center;*/
+}
+.para-btn{
+	margin-top: 40px;
+	margin-bottom: 60px;	
+}
+.recent-project button:hover{
+	background-color: #028C7C;
+	color: black;
+}
+.grey_box{
+	background-color: #1C1C1C;
+}
+.grey_box ul{
+	padding-top: 70px;
+}
+.greybox_para{
+	color: #808080;
+}
+.grey_list{
+	color: #808080;
+	font-size:15px;
+	font-weight: normal;
+	padding-top: 18px;
+}
+.user_links{
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+	padding-top: 15px;
+}
+.grey_list1{
+	padding-top: 30px;
+	color: #808080;
+	font-size:15px;
+	font-weight: normal;
+}
+.grey_box h3{
+	padding-top: 80px;
+	color: white;
+	font-weight: bold;
+}
+.content{
+	color: #808080;
+	padding-top: 30px;
+}
+.grey_box{
+	padding-bottom: 70px;	
+}
+.startup_business{
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+.startup_business .col-xl-6{
+	/*border: solid white;*/
+	padding-left: 0px ;
+	padding-right: 0px ;
+}
+
+.startup_business .col-xl-6, p ,h2{
+	color: white;
+
+}
+.startup_business, col-xl-6, p{
+	font-weight: bold;
+}
+.startup_business p{
+	font-weight: normal;
+}
+.startup_business .col-xl-6 h2 ,.startup_business .col-xl-6 p{
+	padding-left: 30px;
+}
+.startup_business .col-xl-6 button{
+	background-color: black;
+	border: white 1px solid;
+}
+.startup_business .col-xl-6 h2{
+	padding-top: 20px;
+}
+#header-area{
+	position: absolute;
+	top: 50px;
+	left: 0;
+	width: 100%;
+	background-color: #202020;
+	margin: auto;
+}
+.inner_content{
+	text-align: center;
+	background-color: #C14000;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	padding-right: 10px;
+	padding-left: 10px;;
+}
+.inner_content  i{
+	border: solid white;
+	border-radius: 50%;
+	font-size: 30px;
+	padding: 20px;
+	color: white;
+}
+.inner_content p{
+	padding: 10px 15px;
+}
+.box2{
+	background-color: #009988;
+}
+.box3{
+	background-color: #FFA500;
+}
+.boxes{
+	position: relative;
+	top: -50px;
+}
+.copyright{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: grey;
+}
+.copyright .col-xl-6 i{
+	/*border:  solid 1px white;*/
+	margin-right: 15px;
+	font-size: 20px;
+	padding:10px;
+	background-color: #1C1C1C;
+
+}
+.copyright .col-xl-6 i:hover{
+	background-color: #D54AB6;
+}
+.grey_box .col-xl-4 button{
+	margin-top: 20px;
+}
+.grey_box .col-xl-4 button:hover{
+	background-color: #009988;
+}

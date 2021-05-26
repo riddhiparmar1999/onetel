@@ -1,0 +1,33 @@
+@media screen and (max-width:575px){
+	body{
+		/*border: solid red;*/
+	}
+	.boxes .col-xl-4{
+		margin-bottom: 20px;
+	}
+	.copyright i{
+		margin-top: 20px;
+	}
+	.grey_box .col-xl-4 ul{
+		padding-left: 0px !important;
+	}
+	#header-area{
+		width: 90%;
+		margin: auto;
+		margin-left: 5%;
+		margin-bottom: 20px;
+	}
+	.project_para{
+		font-size: 12px;
+		font-weight: normal;
+	}
+	.background_image h3{
+	position: absolute;
+	top: 350px;
+	left: 15px;
+	/*padding-left: 25px;*/
+	font-size: 40px;
+	font-weight: bold;
+	/*border: yellow solid;*/
+	}
+}
